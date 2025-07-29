@@ -1,0 +1,20 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wisconsin state outline with cannabis leaf -->
+  <g transform="translate(20, 20)">
+    <!-- Wisconsin state shape -->
+    <path d="M20 10 L45 15 L60 8 L75 12 L85 5 L90 20 L95 35 L90 50 L85 65 L75 75 L60 70 L45 75 L30 65 L15 50 L10 35 L12 20 Z" 
+          fill="#B8D4C2" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- Cannabis leaf in center -->
+    <g transform="translate(52, 42) scale(0.8)">
+      <!-- Cannabis leaf path -->
+      <path d="M0,-10 C-2,-8 -3,-5 -3,0 C-3,5 -2,8 0,10 C2,8 3,5 3,0 C3,-5 2,-8 0,-10 Z" fill="#ffffff"/>
+      <path d="M-8,-6 C-10,-4 -8,-1 -5,0 C-8,1 -10,4 -8,6 C-6,4 -4,1 -2,0 C-4,-1 -6,-4 -8,-6 Z" fill="#ffffff"/>
+      <path d="M8,-6 C10,-4 8,-1 5,0 C8,1 10,4 8,6 C6,4 4,1 2,0 C4,-1 6,-4 8,-6 Z" fill="#ffffff"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="120" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#B8D4C2">Wisconsin Coalition</text>
+  <text x="120" y="65" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#B8D4C2">for Cannabis Reform</text>
+</svg>
