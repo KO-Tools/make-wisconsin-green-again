@@ -44,15 +44,15 @@
 :root {
   --radius: 0.625rem;
   
-  /* Kind Oasis Brand Colors */
-  --kind-green: #2D5A3D;
-  --kind-orange: #E67E22;
-  --kind-blue: #3498DB;
-  --kind-brown: #8B4513;
-  --kind-cream: #F8F9FA;
-  --kind-gold: #F39C12;
+  /* Wisconsin Coalition Brand Colors */
+  --coalition-green: #2D5A3D;
+  --coalition-orange: #E67E22;
+  --coalition-blue: #3498DB;
+  --coalition-brown: #8B4513;
+  --coalition-cream: #F8F9FA;
+  --coalition-gold: #F39C12;
   
-  /* Updated theme colors with Kind Oasis palette */
+  /* Updated theme colors with Wisconsin Coalition palette */
   --background: #F8F9FA;
   --foreground: #2D5A3D;
   --card: #FFFFFF;
@@ -132,7 +132,7 @@
 
 /* Custom Wisconsin Cannabis Experience Styles */
 .hero-section {
-  background: linear-gradient(135deg, var(--kind-green) 0%, var(--kind-blue) 100%);
+  background: linear-gradient(135deg, var(--coalition-green) 0%, var(--coalition-blue) 100%);
   min-height: 100vh;
   position: relative;
   overflow: hidden;
@@ -202,19 +202,19 @@
 .data-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(45, 90, 61, 0.15);
-  border-color: var(--kind-green);
+  border-color: var(--coalition-green);
 }
 
 .stat-number {
   font-size: 3rem;
   font-weight: 800;
-  color: var(--kind-green);
+  color: var(--coalition-green);
   line-height: 1;
 }
 
 .stat-label {
   font-size: 1.1rem;
-  color: var(--kind-brown);
+  color: var(--coalition-brown);
   font-weight: 500;
 }
 
@@ -223,7 +223,7 @@
   top: 0;
   left: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--kind-green), var(--kind-orange));
+  background: linear-gradient(90deg, var(--coalition-green), var(--coalition-orange));
   z-index: 1000;
   transition: width 0.3s ease;
 }
@@ -235,21 +235,21 @@
 }
 
 .state-outline {
-  fill: var(--kind-cream);
-  stroke: var(--kind-green);
+  fill: var(--coalition-cream);
+  stroke: var(--coalition-green);
   stroke-width: 2;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .state-outline:hover {
-  fill: var(--kind-green);
-  stroke: var(--kind-orange);
+  fill: var(--coalition-green);
+  stroke: var(--coalition-orange);
   stroke-width: 3;
 }
 
 .money-flow {
-  stroke: var(--kind-orange);
+  stroke: var(--coalition-orange);
   stroke-width: 3;
   fill: none;
   stroke-dasharray: 10, 5;
@@ -262,7 +262,7 @@
 }
 
 .hemp-leaf {
-  color: var(--kind-green);
+  color: var(--coalition-green);
   opacity: 0.7;
   transition: all 0.3s ease;
 }
