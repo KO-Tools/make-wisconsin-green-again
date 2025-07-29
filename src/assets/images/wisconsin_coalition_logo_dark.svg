@@ -1,20 +1,33 @@
-<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="350" height="80" viewBox="0 0 350 80" xmlns="http://www.w3.org/2000/svg">
   <!-- Wisconsin state outline with cannabis leaf -->
-  <g transform="translate(20, 20)">
-    <!-- Wisconsin state shape -->
-    <path d="M20 10 L45 15 L60 8 L75 12 L85 5 L90 20 L95 35 L90 50 L85 65 L75 75 L60 70 L45 75 L30 65 L15 50 L10 35 L12 20 Z" 
-          fill="#2D5A3D" stroke="#2D5A3D" stroke-width="2"/>
+  <defs>
+    <style>
+      .text-dark { fill: #2D5A3D; font-family: Arial, sans-serif; font-weight: 500; }
+      .state-fill { fill: #2D5A3D; }
+      .leaf-fill { fill: #2D5A3D; }
+    </style>
+  </defs>
+  
+  <!-- Wisconsin state shape approximation -->
+  <g transform="translate(15, 15)">
+    <path d="M10 5 L25 8 L35 4 L45 7 L50 3 L55 12 L58 22 L55 32 L50 42 L45 48 L35 45 L25 48 L15 42 L8 32 L5 22 L7 12 Z" 
+          class="state-fill" stroke="none"/>
     
-    <!-- Cannabis leaf in center -->
-    <g transform="translate(52, 42) scale(0.8)">
-      <!-- Cannabis leaf path -->
-      <path d="M0,-10 C-2,-8 -3,-5 -3,0 C-3,5 -2,8 0,10 C2,8 3,5 3,0 C3,-5 2,-8 0,-10 Z" fill="#2D5A3D"/>
-      <path d="M-8,-6 C-10,-4 -8,-1 -5,0 C-8,1 -10,4 -8,6 C-6,4 -4,1 -2,0 C-4,-1 -6,-4 -8,-6 Z" fill="#2D5A3D"/>
-      <path d="M8,-6 C10,-4 8,-1 5,0 C8,1 10,4 8,6 C6,4 4,1 2,0 C4,-1 6,-4 8,-6 Z" fill="#2D5A3D"/>
+    <!-- Cannabis leaf in center of Wisconsin -->
+    <g transform="translate(31, 26) scale(0.6)">
+      <!-- Center leaf -->
+      <ellipse cx="0" cy="0" rx="2" ry="8" class="leaf-fill"/>
+      <!-- Side leaves -->
+      <ellipse cx="-4" cy="-2" rx="1.5" ry="6" class="leaf-fill" transform="rotate(-20)"/>
+      <ellipse cx="4" cy="-2" rx="1.5" ry="6" class="leaf-fill" transform="rotate(20)"/>
+      <ellipse cx="-6" cy="1" rx="1" ry="5" class="leaf-fill" transform="rotate(-40)"/>
+      <ellipse cx="6" cy="1" rx="1" ry="5" class="leaf-fill" transform="rotate(40)"/>
+      <!-- Stem -->
+      <rect x="-0.5" y="8" width="1" height="4" class="leaf-fill"/>
     </g>
   </g>
   
   <!-- Text -->
-  <text x="120" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2D5A3D">Wisconsin Coalition</text>
-  <text x="120" y="65" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2D5A3D">for Cannabis Reform</text>
+  <text x="85" y="25" class="text-dark" font-size="16">Wisconsin Coalition</text>
+  <text x="85" y="43" class="text-dark" font-size="16">for Cannabis Reform</text>
 </svg>
