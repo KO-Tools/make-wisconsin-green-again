@@ -76,3 +76,5 @@ The site is deployed on Netlify and automatically updates when changes are pushe
 The Wisconsin Coalition for Cannabis Reform is dedicated to advocating for sensible cannabis policy reform in Wisconsin, focusing on education, economic benefits, and public health outcomes.
 
 ---
+
+<!-- Force rebuild at Wed Jul 30 01:05:09 CDT 2025 -->
