@@ -7,7 +7,7 @@ import { AnimatedCounter } from './components/AnimatedCounter.jsx'
 import { InteractiveWisconsinMap } from './components/InteractiveMap.jsx'
 import { NextChapterButton } from './components/NextChapterButton.jsx'
 import { ProgressBar } from './components/ProgressBar.jsx'
-import wisconsinCoalitionLogo from './assets/images/wisconsin_coalition_logo_light.svg'
+import wisconsinCoalitionLogo from './assets/images/WCCR_logo_dark.png'
 import './App.css'
 
 // Compact StatCard component
