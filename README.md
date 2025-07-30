@@ -63,6 +63,7 @@ The site is deployed on Netlify and automatically updates when changes are pushe
 
 ## 📝 Recent Updates
 
+- Updated to WCCR (Wisconsin Coalition for Cannabis Reform) logo
 - Replaced Kind Oasis logo with Wisconsin Coalition for Cannabis Reform logo
 - Updated branding to reflect Wisconsin Coalition for Cannabis Reform
 - Fixed Contact Representatives button to properly open external link
